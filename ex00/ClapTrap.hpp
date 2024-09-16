@@ -4,6 +4,8 @@
 
 class ClapTrap
 {
+	private:
+		
     public:
         ClapTrap(void);
         ClapTrap(const ClapTrap& other);
