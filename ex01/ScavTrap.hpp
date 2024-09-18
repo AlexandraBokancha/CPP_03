@@ -12,13 +12,12 @@ class ScavTrap : public ClapTrap
 
         ScavTrap(void);
         ScavTrap(std::string name);
-        ScavTrap(const ScavTrap& other);
-        ScavTrap &operator=(const ScavTrap &other);
+        ScavTrap(const ScavTrap & rhs);
+        ScavTrap &operator=(const ScavTrap & rhs);
         ~ScavTrap();
 
         void guardGate(); // function specific to this class
-    private:
-
+        void attack(std::string const & target); // should print different message
 };
 
 #endif
