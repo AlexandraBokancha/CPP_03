@@ -16,6 +16,13 @@ int main( void )
 	child.takeDamage(3);
 	child.beRepaired(2);
 	child.guardGate();
+	
+	FragTrap sillyChild("Paul");
 
+	sillyChild.attack("nobody");
+	sillyChild.takeDamage(8);
+	sillyChild.beRepaired(0);
+	sillyChild.highFivesGuys();;
+	
 	return 0;
 }
