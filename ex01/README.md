@@ -19,7 +19,8 @@ we cannot acces private members of a base class without using a getter/setter;
 
 from anywhere
 
-![alt text](image-1.png)
+
+![Screenshot from 2024-09-18 13-49-36](https://github.com/user-attachments/assets/8258825a-7947-4a57-a90c-8d417881f5fa)
 
 3. Constructors and Destructors in Base and Derived Classes
 
